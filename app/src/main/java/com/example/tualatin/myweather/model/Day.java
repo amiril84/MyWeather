@@ -1,12 +1,11 @@
-package com.example.tualatin.myweather;
+package com.example.tualatin.myweather.model;
 
 /**
  * Created by TUALATIN on 10/24/2015.
  */
-public class Hour {
-
+public class Day {
     private long mTime;
-    private double mTemperature;
+    private double mTemperatureMax;
     private String mSummary;
     private String mIcon;
     private String mTimezone;
@@ -19,12 +18,12 @@ public class Hour {
         mTime = time;
     }
 
-    public double getTemperature() {
-        return mTemperature;
+    public double getTemperatureMax() {
+        return mTemperatureMax;
     }
 
-    public void setTemperature(double temperature) {
-        mTemperature = temperature;
+    public void setTemperatureMax(double temperatureMax) {
+        mTemperatureMax = temperatureMax;
     }
 
     public String getSummary() {
@@ -51,3 +50,4 @@ public class Hour {
         mTimezone = timezone;
     }
 }
+

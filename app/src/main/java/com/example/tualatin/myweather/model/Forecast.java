@@ -1,4 +1,4 @@
-package com.example.tualatin.myweather;
+package com.example.tualatin.myweather.model;
 
 /**
  * Created by TUALATIN on 10/24/2015.

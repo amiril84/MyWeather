@@ -1,4 +1,6 @@
-package com.example.tualatin.myweather;
+package com.example.tualatin.myweather.model;
+
+import com.example.tualatin.myweather.R;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;

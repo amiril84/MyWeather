@@ -1,10 +1,12 @@
-package com.example.tualatin.myweather;
+package com.example.tualatin.myweather.ui;
 
 import android.app.AlertDialog;
 import android.app.Dialog;
 import android.app.DialogFragment;
 import android.content.Context;
 import android.os.Bundle;
+
+import com.example.tualatin.myweather.R;
 
 /**
  * Created by TUALATIN on 10/24/2015.

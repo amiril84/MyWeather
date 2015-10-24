@@ -1,4 +1,4 @@
-package com.example.tualatin.myweather;
+package com.example.tualatin.myweather.ui;
 
 import android.content.Context;
 import android.graphics.drawable.Drawable;
@@ -13,6 +13,11 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.tualatin.myweather.R;
+import com.example.tualatin.myweather.model.Current;
+import com.example.tualatin.myweather.model.Day;
+import com.example.tualatin.myweather.model.Forecast;
+import com.example.tualatin.myweather.model.Hour;
 import com.squareup.okhttp.Call;
 import com.squareup.okhttp.Callback;
 import com.squareup.okhttp.OkHttpClient;
